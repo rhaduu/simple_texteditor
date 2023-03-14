@@ -14,7 +14,7 @@ int main(void){
         std::cout<<t<<": ";
         std::cin.getline(text[t], LEN);
         
-        if(!*text[t]) break;
+        if(!*text[t]) break; /*the program will end when nothing will be added to the array*/
     }
     for (i=0; i<t; i++){
         for(j=0; text[i][j]; j++)
